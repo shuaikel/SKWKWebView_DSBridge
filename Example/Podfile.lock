@@ -1,0 +1,23 @@
+PODS:
+  - ObjectNotification (0.1.1)
+  - SKWKWebViewDSBridge (1.0.0):
+    - ObjectNotification (= 0.1.1)
+
+DEPENDENCIES:
+  - SKWKWebViewDSBridge (from `../`)
+
+SPEC REPOS:
+  "git@github.com:shuaikel/SKPodSpace.git":
+    - ObjectNotification
+
+EXTERNAL SOURCES:
+  SKWKWebViewDSBridge:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ObjectNotification: 4f7280b52c060c04c6cbc1ac77b6ec6d54a9a5e1
+  SKWKWebViewDSBridge: 03e58ecff014de376eab1ef840883f6f172e7072
+
+PODFILE CHECKSUM: fdb34266950164b94f6711f116b9dbe7d4a81c7f
+
+COCOAPODS: 1.15.2

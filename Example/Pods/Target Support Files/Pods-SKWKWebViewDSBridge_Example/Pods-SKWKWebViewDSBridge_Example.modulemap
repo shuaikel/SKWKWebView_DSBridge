@@ -1,0 +1,6 @@
+framework module Pods_SKWKWebViewDSBridge_Example {
+  umbrella header "Pods-SKWKWebViewDSBridge_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

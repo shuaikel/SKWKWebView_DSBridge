@@ -1,0 +1,9 @@
+source 'git@github.com:shuaikel/SKPodSpace.git'
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'SKWKWebViewDSBridge_Example' do
+  pod 'SKWKWebViewDSBridge', :path => '../'
+
+end
