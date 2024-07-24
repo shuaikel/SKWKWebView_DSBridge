@@ -28,7 +28,7 @@
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		98770C37F8255BC5FCE28E52 /* SKWKWebViewDSBridge.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SKWKWebViewDSBridge.podspec; path = ../SKWKWebViewDSBridge.podspec; sourceTree = "<group>"; };
+		98770C37F8255BC5FCE28E52 /* SKWKWebViewDSBridgeLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SKWKWebViewDSBridgeLib.podspec; path = ../SKWKWebViewDSBridgeLib.podspec; sourceTree = "<group>"; };
 		9E663471705A4F4C2BD42E39 /* Pods-SKWKWebViewDSBridge_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKWKWebViewDSBridge_Example.debug.xcconfig"; path = "Target Support Files/Pods-SKWKWebViewDSBridge_Example/Pods-SKWKWebViewDSBridge_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A5FDF032C6CE8C4F7B619996 /* Pods-SKWKWebViewDSBridge_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKWKWebViewDSBridge_Example.release.xcconfig"; path = "Target Support Files/Pods-SKWKWebViewDSBridge_Example/Pods-SKWKWebViewDSBridge_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -115,7 +115,7 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				98770C37F8255BC5FCE28E52 /* SKWKWebViewDSBridge.podspec */,
+				98770C37F8255BC5FCE28E52 /* SKWKWebViewDSBridgeLib.podspec */,
 				36E8E2F1E86CC8768FB45BD7 /* README.md */,
 				1AF010C0FBF391EF26780CEF /* LICENSE */,
 			);

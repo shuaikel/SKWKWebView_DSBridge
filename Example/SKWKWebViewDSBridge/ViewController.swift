@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import SKWKWebViewDSBridge
+import SKWKWebViewDSBridgeLib
 import Foundation
 
 class ViewController: UIViewController {
