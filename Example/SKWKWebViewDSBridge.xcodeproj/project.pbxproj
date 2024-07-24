@@ -233,12 +233,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-SKWKWebViewDSBridge_Example/Pods-SKWKWebViewDSBridge_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/ObjectNotification/ObjectNotification.framework",
-				"${BUILT_PRODUCTS_DIR}/SKWKWebViewDSBridge/SKWKWebViewDSBridge.framework",
+				"${BUILT_PRODUCTS_DIR}/SKWKWebViewDSBridgeLib/SKWKWebViewDSBridgeLib.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectNotification.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SKWKWebViewDSBridge.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SKWKWebViewDSBridgeLib.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

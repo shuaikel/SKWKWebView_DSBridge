@@ -7,101 +7,101 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		161E96997B3AEAF88B7B87409E8578CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		1E715A79ED001DBE26D70AB22AE9428E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		1EF536C66B9126A78A29688E3DAAED1F /* Pods-SKWKWebViewDSBridge_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E0F89AA926F33D038F1ED1AD44FB42 /* Pods-SKWKWebViewDSBridge_Example-dummy.m */; };
-		207F95A89D655ABA917EAF7EEE2F5328 /* SKWKWebViewDSBridge-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 32BD594E161F9F0D56EA157F5C3CC2E0 /* SKWKWebViewDSBridge-dummy.m */; };
-		3441D62477096A7B40A8FCA1E18B8EBC /* Pods-SKWKWebViewDSBridge_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EB4BD6FAD7BC3E5D073697C071BA56AD /* Pods-SKWKWebViewDSBridge_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5323DCED3C8A634358A475D9F2F2ACB6 /* QSBaseWKWebview.swift in Sources */ = {isa = PBXBuildFile; fileRef = D137AB485CE6E3B30FFB7B9CC2B71316 /* QSBaseWKWebview.swift */; };
+		0233F736CDBC32CF383BF44708E40A59 /* QSBaseWKWebview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA0F186E3739F673DE2F315D4EDE329 /* QSBaseWKWebview.swift */; };
+		0D627F2636883E9B7702F72C9CAC0E6F /* QSWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2166446237D81521AE216EF495DFA2FC /* QSWebViewController.swift */; };
+		2EA3BA71B3529A22289647BE7FB583C4 /* QSJSBUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDC1B8DE1274D8A4F715E9804A3CC44 /* QSJSBUtil.swift */; };
 		55719892D6CDBC2BAD25B2411E26E295 /* ObjectNotice.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88D32F0F4C1F1A37C5317508F7AA894 /* ObjectNotice.swift */; };
+		5B3D0DACEA7E0DAAE2F1B97CBFC19ED8 /* dsBridge.js in Resources */ = {isa = PBXBuildFile; fileRef = 6E159BBD4E4365BC53C4B8BD72DF8739 /* dsBridge.js */; };
 		5EB30525D786B8441CB3CF568AC9B540 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		69E46F1548A399E3F9848D8A065586CE /* SKWKWebViewDSBridge-SKWKWebViewDSBridge in Resources */ = {isa = PBXBuildFile; fileRef = 06EF211B40EEC5A700D0C04041071CC2 /* SKWKWebViewDSBridge-SKWKWebViewDSBridge */; };
-		71ED73D1823CD298E9E473D7FAB17130 /* QSJSBUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = A252198905AAF3C26C4CE012290A6D99 /* QSJSBUtil.swift */; };
-		7CEB607A987FD542DECBE83A19BDB65C /* SKWKWebViewDSBridge-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ED96E9869F83CDE21DE5B4D6DE67459 /* SKWKWebViewDSBridge-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		820A97E49DD45C460E9AB6241CC5A688 /* QSCallInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04C24AC4ADBE55651A65D996C7DCD12 /* QSCallInfo.swift */; };
-		9A2DB2A7D5A7263CF1D371715164CF39 /* dsBridge.js in Resources */ = {isa = PBXBuildFile; fileRef = EE3886E1BECF2F608BBF6F8B1C06A99B /* dsBridge.js */; };
-		CA8C83ECD6F70C83456847D822B1AE20 /* QSWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE71600C5CF2AB2DA02BDD639EFEC766 /* QSWebViewController.swift */; };
+		76A453653C50810B6AF9D42F938DAA41 /* QSWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C17133C26DE5A27BB7755543129443 /* QSWebView.swift */; };
+		79FA25D99E49F96C0368D88F399C0AFF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		86F01CD038AFEFFE188FEBB9B7E1777F /* SKWKWebViewDSBridgeLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C6CC902634CE1637C5F2F32561DD9168 /* SKWKWebViewDSBridgeLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		877E2B00C82EE2E907D34404C0A8019D /* Pods-SKWKWebViewDSBridge_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C4E0F89AA926F33D038F1ED1AD44FB42 /* Pods-SKWKWebViewDSBridge_Example-dummy.m */; };
+		95314986AA7403CF31CCBFCC818D1569 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		AFDC38F76DD9E6D15BBE8ABA2D5DAEF3 /* SKWKWebViewDSBridgeLib-SKWKWebViewDSBridge in Resources */ = {isa = PBXBuildFile; fileRef = 3F0893F59D1A9584ED287431B1031805 /* SKWKWebViewDSBridgeLib-SKWKWebViewDSBridge */; };
+		C32698E79100BA3F8BB4EA997BE79F26 /* SKWKWebViewDSBridgeLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A64F81074BBEDB6EA8B08C8D72D2876E /* SKWKWebViewDSBridgeLib-dummy.m */; };
+		C7F10C01D821A7DDAB6F2A34F4EE8D05 /* Pods-SKWKWebViewDSBridge_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EB4BD6FAD7BC3E5D073697C071BA56AD /* Pods-SKWKWebViewDSBridge_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D573746AB770FAB3BB4D41EA24F9DEE0 /* ObjectNotification-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E56E13784B0BF67FCAC5D149F701F844 /* ObjectNotification-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F64B420C74FD1740FA93B41EEB700A8A /* QSWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A168453173D07BFAB2653C747B924A /* QSWebView.swift */; };
+		E4A673AD599EB46976D73EA047218EBE /* QSCallInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B93B23CF4592A71F4116B891260F99B /* QSCallInfo.swift */; };
 		FA0F75C9217B76944D840B3D363DDDE4 /* ObjectNotification-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E4C779917EA2902441BA67F65E78BF /* ObjectNotification-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2B91EF617D9AA46784B75780FF9676E1 /* PBXContainerItemProxy */ = {
+		05D5A7D370A467162C44B0CFBB85C3C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A53B7CFAE912C1C282DD3555EBB3D74;
+			remoteInfo = SKWKWebViewDSBridgeLib;
+		};
+		0D85B73D6706BEE78247234399B39B95 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 1DD45BF252996BE80FE1795FAB868B5F;
 			remoteInfo = ObjectNotification;
 		};
-		B84EE05508ECAC28C25F1AE6127D8DE9 /* PBXContainerItemProxy */ = {
+		FAA05A9A23196788CBD9B246CC869BAF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 1DD45BF252996BE80FE1795FAB868B5F;
 			remoteInfo = ObjectNotification;
 		};
-		BE407B467053774FBCB8D213FBFAA980 /* PBXContainerItemProxy */ = {
+		FCC53FA189AD2F5BDC11081C66BFB4F7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1CAEA3A7F9D5F503C9F06D076793C4F3;
-			remoteInfo = "SKWKWebViewDSBridge-SKWKWebViewDSBridge";
-		};
-		C68394AEE49FF50B4A9E6DD348DC3029 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AF5EC460F4E963F4B178AC87E651829B;
-			remoteInfo = SKWKWebViewDSBridge;
+			remoteGlobalIDString = AAF72DC7794DADDBE086E6F8D5B856F4;
+			remoteInfo = "SKWKWebViewDSBridgeLib-SKWKWebViewDSBridge";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		009E4E84C1602ABAB5EEA0ECD00E3132 /* ObjectNotification.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ObjectNotification.debug.xcconfig; sourceTree = "<group>"; };
-		0172B3BE75DAE8412968F5F0B3A54070 /* SKWKWebViewDSBridge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SKWKWebViewDSBridge.debug.xcconfig; sourceTree = "<group>"; };
 		055489E03E835A22D3EBE3F8CA26BFF1 /* Pods-SKWKWebViewDSBridge_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SKWKWebViewDSBridge_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		06EF211B40EEC5A700D0C04041071CC2 /* SKWKWebViewDSBridge-SKWKWebViewDSBridge */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "SKWKWebViewDSBridge-SKWKWebViewDSBridge"; path = SKWKWebViewDSBridge.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BBC0B15A4BB3080504C9EDA34C696C0 /* ObjectNotification */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ObjectNotification; path = ObjectNotification.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		15C17133C26DE5A27BB7755543129443 /* QSWebView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QSWebView.swift; path = SKWKWebViewDSBridge/Classes/QSWebView.swift; sourceTree = "<group>"; };
 		1EFA950CC888CFE240E4DDB6FD26EFCF /* Pods-SKWKWebViewDSBridge_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SKWKWebViewDSBridge_Example-Info.plist"; sourceTree = "<group>"; };
+		2166446237D81521AE216EF495DFA2FC /* QSWebViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QSWebViewController.swift; path = SKWKWebViewDSBridge/Classes/QSWebViewController.swift; sourceTree = "<group>"; };
+		2702DE05454D3D3AD17ED8FE3CD714EA /* SKWKWebViewDSBridgeLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKWKWebViewDSBridgeLib-prefix.pch"; sourceTree = "<group>"; };
 		2E67C4F5C9BD1131F7E267504F8AC1F6 /* ObjectNotification-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ObjectNotification-prefix.pch"; sourceTree = "<group>"; };
-		2E8F426B4676A43188081BC9543C7009 /* SKWKWebViewDSBridge-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SKWKWebViewDSBridge-Info.plist"; sourceTree = "<group>"; };
-		32BD594E161F9F0D56EA157F5C3CC2E0 /* SKWKWebViewDSBridge-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SKWKWebViewDSBridge-dummy.m"; sourceTree = "<group>"; };
-		4459831AF537821018D71C7041A89DB3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		46F46995DF47C5A2C157202EE430DCE4 /* ResourceBundle-SKWKWebViewDSBridge-SKWKWebViewDSBridge-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-SKWKWebViewDSBridge-SKWKWebViewDSBridge-Info.plist"; sourceTree = "<group>"; };
+		3F0893F59D1A9584ED287431B1031805 /* SKWKWebViewDSBridgeLib-SKWKWebViewDSBridge */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "SKWKWebViewDSBridgeLib-SKWKWebViewDSBridge"; path = SKWKWebViewDSBridge.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		49DD7712B118B68835950E8A5E13D786 /* ObjectNotification-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ObjectNotification-Info.plist"; sourceTree = "<group>"; };
 		5A5172483F034C82C803AC53A0C7FA11 /* ObjectNotification.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ObjectNotification.release.xcconfig; sourceTree = "<group>"; };
+		5B93B23CF4592A71F4116B891260F99B /* QSCallInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QSCallInfo.swift; path = SKWKWebViewDSBridge/Classes/QSCallInfo.swift; sourceTree = "<group>"; };
+		5EDC1B8DE1274D8A4F715E9804A3CC44 /* QSJSBUtil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QSJSBUtil.swift; path = SKWKWebViewDSBridge/Classes/QSJSBUtil.swift; sourceTree = "<group>"; };
 		66E4C779917EA2902441BA67F65E78BF /* ObjectNotification-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ObjectNotification-dummy.m"; sourceTree = "<group>"; };
-		69440BDA46E65FE210091612368CDC14 /* SKWKWebViewDSBridge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SKWKWebViewDSBridge.release.xcconfig; sourceTree = "<group>"; };
-		6ED96E9869F83CDE21DE5B4D6DE67459 /* SKWKWebViewDSBridge-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKWKWebViewDSBridge-umbrella.h"; sourceTree = "<group>"; };
+		66ECD7E3731C93B2671159F849CDD379 /* SKWKWebViewDSBridgeLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SKWKWebViewDSBridgeLib.release.xcconfig; sourceTree = "<group>"; };
+		6E097D37ADAC592D3749D7178F0F3255 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		6E159BBD4E4365BC53C4B8BD72DF8739 /* dsBridge.js */ = {isa = PBXFileReference; includeInIndex = 1; name = dsBridge.js; path = SKWKWebViewDSBridge/Assets/dsBridge.js; sourceTree = "<group>"; };
+		6FA0F186E3739F673DE2F315D4EDE329 /* QSBaseWKWebview.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QSBaseWKWebview.swift; path = SKWKWebViewDSBridge/Classes/QSBaseWKWebview.swift; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		8115443D83E1532DE0B0752815C80C22 /* SKWKWebViewDSBridge.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SKWKWebViewDSBridge.modulemap; sourceTree = "<group>"; };
-		88A168453173D07BFAB2653C747B924A /* QSWebView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QSWebView.swift; path = SKWKWebViewDSBridge/Classes/QSWebView.swift; sourceTree = "<group>"; };
-		8AED95EF680DFC679BF941B91C7B01F3 /* SKWKWebViewDSBridge-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKWKWebViewDSBridge-prefix.pch"; sourceTree = "<group>"; };
+		8380908A7EC188F4CE936DE73C4B57C3 /* ResourceBundle-SKWKWebViewDSBridge-SKWKWebViewDSBridgeLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-SKWKWebViewDSBridge-SKWKWebViewDSBridgeLib-Info.plist"; sourceTree = "<group>"; };
 		8FD8AA68C5927354EB2335AC31585EB6 /* Pods-SKWKWebViewDSBridge_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SKWKWebViewDSBridge_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F4B5253F6E8D5FDAC255CB470A6B62D /* SKWKWebViewDSBridgeLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SKWKWebViewDSBridgeLib.debug.xcconfig; sourceTree = "<group>"; };
 		A0E727EF7FD1D12265CD18FCB6742A4D /* Pods-SKWKWebViewDSBridge_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SKWKWebViewDSBridge_Example.modulemap"; sourceTree = "<group>"; };
-		A252198905AAF3C26C4CE012290A6D99 /* QSJSBUtil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QSJSBUtil.swift; path = SKWKWebViewDSBridge/Classes/QSJSBUtil.swift; sourceTree = "<group>"; };
+		A64F81074BBEDB6EA8B08C8D72D2876E /* SKWKWebViewDSBridgeLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SKWKWebViewDSBridgeLib-dummy.m"; sourceTree = "<group>"; };
 		AFAF811E6DCEC1B6E56D3AB5D6657CE9 /* Pods-SKWKWebViewDSBridge_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SKWKWebViewDSBridge_Example"; path = Pods_SKWKWebViewDSBridge_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCD766CB3C6C0AB9D4AF28656BBF1F79 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		BD37DE697DF3A6D052FFF60DA1E22EC9 /* Pods-SKWKWebViewDSBridge_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SKWKWebViewDSBridge_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C04C24AC4ADBE55651A65D996C7DCD12 /* QSCallInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QSCallInfo.swift; path = SKWKWebViewDSBridge/Classes/QSCallInfo.swift; sourceTree = "<group>"; };
+		BE0F6DB052C0FEC8D487E5EC81803D1F /* SKWKWebViewDSBridgeLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SKWKWebViewDSBridgeLib.modulemap; sourceTree = "<group>"; };
 		C4E0F89AA926F33D038F1ED1AD44FB42 /* Pods-SKWKWebViewDSBridge_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SKWKWebViewDSBridge_Example-dummy.m"; sourceTree = "<group>"; };
-		D137AB485CE6E3B30FFB7B9CC2B71316 /* QSBaseWKWebview.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QSBaseWKWebview.swift; path = SKWKWebViewDSBridge/Classes/QSBaseWKWebview.swift; sourceTree = "<group>"; };
-		D66AEF0E634CA4FA0712F8C50853C88A /* SKWKWebViewDSBridge.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SKWKWebViewDSBridge.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C6CC902634CE1637C5F2F32561DD9168 /* SKWKWebViewDSBridgeLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKWKWebViewDSBridgeLib-umbrella.h"; sourceTree = "<group>"; };
+		C95B3A602B9A2F1C84897501E099206A /* SKWKWebViewDSBridgeLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SKWKWebViewDSBridgeLib-Info.plist"; sourceTree = "<group>"; };
+		CC0416935F92D52A46301252C0E06673 /* SKWKWebViewDSBridgeLib */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SKWKWebViewDSBridgeLib; path = SKWKWebViewDSBridgeLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D699E3E1BA77DF784A13A0DCBD4706A9 /* SKWKWebViewDSBridgeLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SKWKWebViewDSBridgeLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E56E13784B0BF67FCAC5D149F701F844 /* ObjectNotification-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ObjectNotification-umbrella.h"; sourceTree = "<group>"; };
 		EB4BD6FAD7BC3E5D073697C071BA56AD /* Pods-SKWKWebViewDSBridge_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SKWKWebViewDSBridge_Example-umbrella.h"; sourceTree = "<group>"; };
-		EB71BA1E6FBE1A5DF40056F55EB015AE /* SKWKWebViewDSBridge */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SKWKWebViewDSBridge; path = SKWKWebViewDSBridge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECB45ECE438F344D8011D83B30D4322C /* Pods-SKWKWebViewDSBridge_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SKWKWebViewDSBridge_Example.release.xcconfig"; sourceTree = "<group>"; };
-		EE3886E1BECF2F608BBF6F8B1C06A99B /* dsBridge.js */ = {isa = PBXFileReference; includeInIndex = 1; name = dsBridge.js; path = SKWKWebViewDSBridge/Assets/dsBridge.js; sourceTree = "<group>"; };
-		EE71600C5CF2AB2DA02BDD639EFEC766 /* QSWebViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QSWebViewController.swift; path = SKWKWebViewDSBridge/Classes/QSWebViewController.swift; sourceTree = "<group>"; };
-		F270E7303C90690C341F79AD01113204 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		F5CBC7DB91F4CE982DAD4C0109E0856C /* ObjectNotification.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ObjectNotification.modulemap; sourceTree = "<group>"; };
 		F746DE0F0AFDC6151D80C1B73E812D1D /* Pods-SKWKWebViewDSBridge_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SKWKWebViewDSBridge_Example-frameworks.sh"; sourceTree = "<group>"; };
 		F88D32F0F4C1F1A37C5317508F7AA894 /* ObjectNotice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObjectNotice.swift; path = ObjectNotice/Classes/ObjectNotice.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4CDA8D1DC99D9F61EB66770F1B7E29F4 /* Frameworks */ = {
+		4E36A79FC6BBC6AEDB3B95CC9E16EE82 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -116,19 +116,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7AE0B034E1033FFC8C4103B686E39BF6 /* Frameworks */ = {
+		81996B3A92304DFFA725693736A0AB54 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E715A79ED001DBE26D70AB22AE9428E /* Foundation.framework in Frameworks */,
+				95314986AA7403CF31CCBFCC818D1569 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B8AF61A8051C96D518B5C40CB8E5B971 /* Frameworks */ = {
+		86C0C6C128F6E286F1D00079514DD240 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				161E96997B3AEAF88B7B87409E8578CC /* Foundation.framework in Frameworks */,
+				79FA25D99E49F96C0368D88F399C0AFF /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +167,22 @@
 			path = "../Target Support Files/ObjectNotification";
 			sourceTree = "<group>";
 		};
+		50B2B36DA2D05CE060E01CCF6540B3AD /* SKWKWebViewDSBridgeLib */ = {
+			isa = PBXGroup;
+			children = (
+				6E159BBD4E4365BC53C4B8BD72DF8739 /* dsBridge.js */,
+				6FA0F186E3739F673DE2F315D4EDE329 /* QSBaseWKWebview.swift */,
+				5B93B23CF4592A71F4116B891260F99B /* QSCallInfo.swift */,
+				5EDC1B8DE1274D8A4F715E9804A3CC44 /* QSJSBUtil.swift */,
+				15C17133C26DE5A27BB7755543129443 /* QSWebView.swift */,
+				2166446237D81521AE216EF495DFA2FC /* QSWebViewController.swift */,
+				AF6B40149CE5E7925CC5A735C6408E19 /* Pod */,
+				9CC91ED93E6F7FAE4D33B6D1AB0118A6 /* Support Files */,
+			);
+			name = SKWKWebViewDSBridgeLib;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -183,53 +199,13 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		5989179C75E82C2C01A6C05593F2F9FE /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				698D7C446AFABC36428BA378504F686F /* SKWKWebViewDSBridge */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		698D7C446AFABC36428BA378504F686F /* SKWKWebViewDSBridge */ = {
-			isa = PBXGroup;
-			children = (
-				EE3886E1BECF2F608BBF6F8B1C06A99B /* dsBridge.js */,
-				D137AB485CE6E3B30FFB7B9CC2B71316 /* QSBaseWKWebview.swift */,
-				C04C24AC4ADBE55651A65D996C7DCD12 /* QSCallInfo.swift */,
-				A252198905AAF3C26C4CE012290A6D99 /* QSJSBUtil.swift */,
-				88A168453173D07BFAB2653C747B924A /* QSWebView.swift */,
-				EE71600C5CF2AB2DA02BDD639EFEC766 /* QSWebViewController.swift */,
-				D11912085B6F0B31E4989C4A36FE3E86 /* Pod */,
-				7BC0D7FBD42928A24F23423455B64B27 /* Support Files */,
-			);
-			name = SKWKWebViewDSBridge;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		7BC0D7FBD42928A24F23423455B64B27 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				46F46995DF47C5A2C157202EE430DCE4 /* ResourceBundle-SKWKWebViewDSBridge-SKWKWebViewDSBridge-Info.plist */,
-				8115443D83E1532DE0B0752815C80C22 /* SKWKWebViewDSBridge.modulemap */,
-				32BD594E161F9F0D56EA157F5C3CC2E0 /* SKWKWebViewDSBridge-dummy.m */,
-				2E8F426B4676A43188081BC9543C7009 /* SKWKWebViewDSBridge-Info.plist */,
-				8AED95EF680DFC679BF941B91C7B01F3 /* SKWKWebViewDSBridge-prefix.pch */,
-				6ED96E9869F83CDE21DE5B4D6DE67459 /* SKWKWebViewDSBridge-umbrella.h */,
-				0172B3BE75DAE8412968F5F0B3A54070 /* SKWKWebViewDSBridge.debug.xcconfig */,
-				69440BDA46E65FE210091612368CDC14 /* SKWKWebViewDSBridge.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/SKWKWebViewDSBridge";
-			sourceTree = "<group>";
-		};
-		9B999AA45ED545D6F3BBFCD3968C1FD0 /* Products */ = {
+		96057C6F396591E375736948F629EF4E /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				0BBC0B15A4BB3080504C9EDA34C696C0 /* ObjectNotification */,
 				AFAF811E6DCEC1B6E56D3AB5D6657CE9 /* Pods-SKWKWebViewDSBridge_Example */,
-				EB71BA1E6FBE1A5DF40056F55EB015AE /* SKWKWebViewDSBridge */,
-				06EF211B40EEC5A700D0C04041071CC2 /* SKWKWebViewDSBridge-SKWKWebViewDSBridge */,
+				CC0416935F92D52A46301252C0E06673 /* SKWKWebViewDSBridgeLib */,
+				3F0893F59D1A9584ED287431B1031805 /* SKWKWebViewDSBridgeLib-SKWKWebViewDSBridge */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -244,26 +220,50 @@
 			path = ObjectNotification;
 			sourceTree = "<group>";
 		};
+		9CC91ED93E6F7FAE4D33B6D1AB0118A6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8380908A7EC188F4CE936DE73C4B57C3 /* ResourceBundle-SKWKWebViewDSBridge-SKWKWebViewDSBridgeLib-Info.plist */,
+				BE0F6DB052C0FEC8D487E5EC81803D1F /* SKWKWebViewDSBridgeLib.modulemap */,
+				A64F81074BBEDB6EA8B08C8D72D2876E /* SKWKWebViewDSBridgeLib-dummy.m */,
+				C95B3A602B9A2F1C84897501E099206A /* SKWKWebViewDSBridgeLib-Info.plist */,
+				2702DE05454D3D3AD17ED8FE3CD714EA /* SKWKWebViewDSBridgeLib-prefix.pch */,
+				C6CC902634CE1637C5F2F32561DD9168 /* SKWKWebViewDSBridgeLib-umbrella.h */,
+				9F4B5253F6E8D5FDAC255CB470A6B62D /* SKWKWebViewDSBridgeLib.debug.xcconfig */,
+				66ECD7E3731C93B2671159F849CDD379 /* SKWKWebViewDSBridgeLib.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SKWKWebViewDSBridgeLib";
+			sourceTree = "<group>";
+		};
+		AF6B40149CE5E7925CC5A735C6408E19 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				BCD766CB3C6C0AB9D4AF28656BBF1F79 /* LICENSE */,
+				6E097D37ADAC592D3749D7178F0F3255 /* README.md */,
+				D699E3E1BA77DF784A13A0DCBD4706A9 /* SKWKWebViewDSBridgeLib.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		BD8EB2048353C1137194C9D8E6F5F7C7 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				50B2B36DA2D05CE060E01CCF6540B3AD /* SKWKWebViewDSBridgeLib */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				5989179C75E82C2C01A6C05593F2F9FE /* Development Pods */,
+				BD8EB2048353C1137194C9D8E6F5F7C7 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				583526FF1B2093B7805DDC299E1D7866 /* Pods */,
-				9B999AA45ED545D6F3BBFCD3968C1FD0 /* Products */,
+				96057C6F396591E375736948F629EF4E /* Products */,
 				EE81B208D2355F02E380EBFD065A5AFA /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D11912085B6F0B31E4989C4A36FE3E86 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				F270E7303C90690C341F79AD01113204 /* LICENSE */,
-				4459831AF537821018D71C7041A89DB3 /* README.md */,
-				D66AEF0E634CA4FA0712F8C50853C88A /* SKWKWebViewDSBridge.podspec */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
@@ -285,6 +285,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		41D856FD27D8A679A703512F1680FC4B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86F01CD038AFEFFE188FEBB9B7E1777F /* SKWKWebViewDSBridgeLib-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		781AC7AE500C79EAF638965C52303078 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -293,42 +301,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AF6132ABA2C78B64D0272BC45C83242F /* Headers */ = {
+		8ECC8F049E256A17FB29C4F35AED8FA0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7CEB607A987FD542DECBE83A19BDB65C /* SKWKWebViewDSBridge-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EAF4E5346B8B9761E947AAD8473250DC /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3441D62477096A7B40A8FCA1E18B8EBC /* Pods-SKWKWebViewDSBridge_Example-umbrella.h in Headers */,
+				C7F10C01D821A7DDAB6F2A34F4EE8D05 /* Pods-SKWKWebViewDSBridge_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		1CAEA3A7F9D5F503C9F06D076793C4F3 /* SKWKWebViewDSBridge-SKWKWebViewDSBridge */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0DEB1FD4DB160A483D7FD1F7A6FA7499 /* Build configuration list for PBXNativeTarget "SKWKWebViewDSBridge-SKWKWebViewDSBridge" */;
-			buildPhases = (
-				19847AF3793BFC23BD28B94E2E3B3BF2 /* Sources */,
-				4CDA8D1DC99D9F61EB66770F1B7E29F4 /* Frameworks */,
-				8E769E5035F828012F02A3547EAC7E41 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "SKWKWebViewDSBridge-SKWKWebViewDSBridge";
-			productName = SKWKWebViewDSBridge;
-			productReference = 06EF211B40EEC5A700D0C04041071CC2 /* SKWKWebViewDSBridge-SKWKWebViewDSBridge */;
-			productType = "com.apple.product-type.bundle";
-		};
 		1DD45BF252996BE80FE1795FAB868B5F /* ObjectNotification */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E9C1D26EA00137562293544ED29517FB /* Build configuration list for PBXNativeTarget "ObjectNotification" */;
@@ -347,45 +330,62 @@
 			productReference = 0BBC0B15A4BB3080504C9EDA34C696C0 /* ObjectNotification */;
 			productType = "com.apple.product-type.framework";
 		};
-		9ED8CB6A9E82A5D169AF743D8F4138D5 /* Pods-SKWKWebViewDSBridge_Example */ = {
+		7A53B7CFAE912C1C282DD3555EBB3D74 /* SKWKWebViewDSBridgeLib */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 489B4C7AF5274128A93E1FBA4C2F8D0A /* Build configuration list for PBXNativeTarget "Pods-SKWKWebViewDSBridge_Example" */;
+			buildConfigurationList = 59E0641DB02B1765E4FBDC189E479F70 /* Build configuration list for PBXNativeTarget "SKWKWebViewDSBridgeLib" */;
 			buildPhases = (
-				EAF4E5346B8B9761E947AAD8473250DC /* Headers */,
-				2F136C3EEDD2BE12510FC0D8D9C24638 /* Sources */,
-				B8AF61A8051C96D518B5C40CB8E5B971 /* Frameworks */,
-				9D0FEFD5F221DBC743E394A79BB7C299 /* Resources */,
+				41D856FD27D8A679A703512F1680FC4B /* Headers */,
+				7A94EEBB27BFACECB31C564E8B6FDBE8 /* Sources */,
+				81996B3A92304DFFA725693736A0AB54 /* Frameworks */,
+				25A3A613C295F835E3791FBF00BA4118 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CBCC9C80A5F734A887B97252EAD2D5FE /* PBXTargetDependency */,
-				3491720357632FCFDEBCFEFFB8A0AF9B /* PBXTargetDependency */,
+				C7B984C4D45585938A6B3B6E79D63C6D /* PBXTargetDependency */,
+				1A576B06D0B870E5AFF0384239044CD5 /* PBXTargetDependency */,
+			);
+			name = SKWKWebViewDSBridgeLib;
+			productName = SKWKWebViewDSBridgeLib;
+			productReference = CC0416935F92D52A46301252C0E06673 /* SKWKWebViewDSBridgeLib */;
+			productType = "com.apple.product-type.framework";
+		};
+		9ED8CB6A9E82A5D169AF743D8F4138D5 /* Pods-SKWKWebViewDSBridge_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DA7FC01EAAF43F8224A2A08817D6BF0 /* Build configuration list for PBXNativeTarget "Pods-SKWKWebViewDSBridge_Example" */;
+			buildPhases = (
+				8ECC8F049E256A17FB29C4F35AED8FA0 /* Headers */,
+				0277CD39F80A255A7CA8EE1503695719 /* Sources */,
+				86C0C6C128F6E286F1D00079514DD240 /* Frameworks */,
+				96734D3DED0EA176E99889714777BFFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B09BA453E82B288666CFC113F2BF39EE /* PBXTargetDependency */,
+				1801C51C4A62B6703EDE3CE9DA93EBF8 /* PBXTargetDependency */,
 			);
 			name = "Pods-SKWKWebViewDSBridge_Example";
 			productName = Pods_SKWKWebViewDSBridge_Example;
 			productReference = AFAF811E6DCEC1B6E56D3AB5D6657CE9 /* Pods-SKWKWebViewDSBridge_Example */;
 			productType = "com.apple.product-type.framework";
 		};
-		AF5EC460F4E963F4B178AC87E651829B /* SKWKWebViewDSBridge */ = {
+		AAF72DC7794DADDBE086E6F8D5B856F4 /* SKWKWebViewDSBridgeLib-SKWKWebViewDSBridge */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 50CDE624B0ECE500533941B79F01601A /* Build configuration list for PBXNativeTarget "SKWKWebViewDSBridge" */;
+			buildConfigurationList = 4CECA4C7346D1E136A5079549E96845D /* Build configuration list for PBXNativeTarget "SKWKWebViewDSBridgeLib-SKWKWebViewDSBridge" */;
 			buildPhases = (
-				AF6132ABA2C78B64D0272BC45C83242F /* Headers */,
-				4CA41512E0105A6F94EA41E8D7E4860C /* Sources */,
-				7AE0B034E1033FFC8C4103B686E39BF6 /* Frameworks */,
-				F3DFF4DE0ABAB7C50D0F2C38E6CB5D60 /* Resources */,
+				79EC10CA540912A7104483287B6EFD57 /* Sources */,
+				4E36A79FC6BBC6AEDB3B95CC9E16EE82 /* Frameworks */,
+				C4A4B13DBFA0A1480273F53053EF9756 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4D8B87863F4FB243756F9FEE3199597D /* PBXTargetDependency */,
-				ACB7D0CFD6CBFEE652BD0113476B2194 /* PBXTargetDependency */,
 			);
-			name = SKWKWebViewDSBridge;
+			name = "SKWKWebViewDSBridgeLib-SKWKWebViewDSBridge";
 			productName = SKWKWebViewDSBridge;
-			productReference = EB71BA1E6FBE1A5DF40056F55EB015AE /* SKWKWebViewDSBridge */;
-			productType = "com.apple.product-type.framework";
+			productReference = 3F0893F59D1A9584ED287431B1031805 /* SKWKWebViewDSBridgeLib-SKWKWebViewDSBridge */;
+			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -405,19 +405,27 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 9B999AA45ED545D6F3BBFCD3968C1FD0 /* Products */;
+			productRefGroup = 96057C6F396591E375736948F629EF4E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				1DD45BF252996BE80FE1795FAB868B5F /* ObjectNotification */,
 				9ED8CB6A9E82A5D169AF743D8F4138D5 /* Pods-SKWKWebViewDSBridge_Example */,
-				AF5EC460F4E963F4B178AC87E651829B /* SKWKWebViewDSBridge */,
-				1CAEA3A7F9D5F503C9F06D076793C4F3 /* SKWKWebViewDSBridge-SKWKWebViewDSBridge */,
+				7A53B7CFAE912C1C282DD3555EBB3D74 /* SKWKWebViewDSBridgeLib */,
+				AAF72DC7794DADDBE086E6F8D5B856F4 /* SKWKWebViewDSBridgeLib-SKWKWebViewDSBridge */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		25A3A613C295F835E3791FBF00BA4118 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFDC38F76DD9E6D15BBE8ABA2D5DAEF3 /* SKWKWebViewDSBridgeLib-SKWKWebViewDSBridge in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2FD61FE6F593887E79B92DCD7B127247 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -425,57 +433,49 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8E769E5035F828012F02A3547EAC7E41 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9A2DB2A7D5A7263CF1D371715164CF39 /* dsBridge.js in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9D0FEFD5F221DBC743E394A79BB7C299 /* Resources */ = {
+		96734D3DED0EA176E99889714777BFFC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F3DFF4DE0ABAB7C50D0F2C38E6CB5D60 /* Resources */ = {
+		C4A4B13DBFA0A1480273F53053EF9756 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69E46F1548A399E3F9848D8A065586CE /* SKWKWebViewDSBridge-SKWKWebViewDSBridge in Resources */,
+				5B3D0DACEA7E0DAAE2F1B97CBFC19ED8 /* dsBridge.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		19847AF3793BFC23BD28B94E2E3B3BF2 /* Sources */ = {
+		0277CD39F80A255A7CA8EE1503695719 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				877E2B00C82EE2E907D34404C0A8019D /* Pods-SKWKWebViewDSBridge_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79EC10CA540912A7104483287B6EFD57 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2F136C3EEDD2BE12510FC0D8D9C24638 /* Sources */ = {
+		7A94EEBB27BFACECB31C564E8B6FDBE8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1EF536C66B9126A78A29688E3DAAED1F /* Pods-SKWKWebViewDSBridge_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4CA41512E0105A6F94EA41E8D7E4860C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5323DCED3C8A634358A475D9F2F2ACB6 /* QSBaseWKWebview.swift in Sources */,
-				820A97E49DD45C460E9AB6241CC5A688 /* QSCallInfo.swift in Sources */,
-				71ED73D1823CD298E9E473D7FAB17130 /* QSJSBUtil.swift in Sources */,
-				F64B420C74FD1740FA93B41EEB700A8A /* QSWebView.swift in Sources */,
-				CA8C83ECD6F70C83456847D822B1AE20 /* QSWebViewController.swift in Sources */,
-				207F95A89D655ABA917EAF7EEE2F5328 /* SKWKWebViewDSBridge-dummy.m in Sources */,
+				0233F736CDBC32CF383BF44708E40A59 /* QSBaseWKWebview.swift in Sources */,
+				E4A673AD599EB46976D73EA047218EBE /* QSCallInfo.swift in Sources */,
+				2EA3BA71B3529A22289647BE7FB583C4 /* QSJSBUtil.swift in Sources */,
+				76A453653C50810B6AF9D42F938DAA41 /* QSWebView.swift in Sources */,
+				0D627F2636883E9B7702F72C9CAC0E6F /* QSWebViewController.swift in Sources */,
+				C32698E79100BA3F8BB4EA997BE79F26 /* SKWKWebViewDSBridgeLib-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -491,29 +491,29 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3491720357632FCFDEBCFEFFB8A0AF9B /* PBXTargetDependency */ = {
+		1801C51C4A62B6703EDE3CE9DA93EBF8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = SKWKWebViewDSBridge;
-			target = AF5EC460F4E963F4B178AC87E651829B /* SKWKWebViewDSBridge */;
-			targetProxy = C68394AEE49FF50B4A9E6DD348DC3029 /* PBXContainerItemProxy */;
+			name = SKWKWebViewDSBridgeLib;
+			target = 7A53B7CFAE912C1C282DD3555EBB3D74 /* SKWKWebViewDSBridgeLib */;
+			targetProxy = 05D5A7D370A467162C44B0CFBB85C3C0 /* PBXContainerItemProxy */;
 		};
-		4D8B87863F4FB243756F9FEE3199597D /* PBXTargetDependency */ = {
+		1A576B06D0B870E5AFF0384239044CD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SKWKWebViewDSBridgeLib-SKWKWebViewDSBridge";
+			target = AAF72DC7794DADDBE086E6F8D5B856F4 /* SKWKWebViewDSBridgeLib-SKWKWebViewDSBridge */;
+			targetProxy = FCC53FA189AD2F5BDC11081C66BFB4F7 /* PBXContainerItemProxy */;
+		};
+		B09BA453E82B288666CFC113F2BF39EE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ObjectNotification;
 			target = 1DD45BF252996BE80FE1795FAB868B5F /* ObjectNotification */;
-			targetProxy = B84EE05508ECAC28C25F1AE6127D8DE9 /* PBXContainerItemProxy */;
+			targetProxy = 0D85B73D6706BEE78247234399B39B95 /* PBXContainerItemProxy */;
 		};
-		ACB7D0CFD6CBFEE652BD0113476B2194 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "SKWKWebViewDSBridge-SKWKWebViewDSBridge";
-			target = 1CAEA3A7F9D5F503C9F06D076793C4F3 /* SKWKWebViewDSBridge-SKWKWebViewDSBridge */;
-			targetProxy = BE407B467053774FBCB8D213FBFAA980 /* PBXContainerItemProxy */;
-		};
-		CBCC9C80A5F734A887B97252EAD2D5FE /* PBXTargetDependency */ = {
+		C7B984C4D45585938A6B3B6E79D63C6D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ObjectNotification;
 			target = 1DD45BF252996BE80FE1795FAB868B5F /* ObjectNotification */;
-			targetProxy = 2B91EF617D9AA46784B75780FF9676E1 /* PBXContainerItemProxy */;
+			targetProxy = FAA05A9A23196788CBD9B246CC869BAF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -539,6 +539,37 @@
 				MODULEMAP_FILE = "Target Support Files/ObjectNotification/ObjectNotification.modulemap";
 				PRODUCT_MODULE_NAME = ObjectNotification;
 				PRODUCT_NAME = ObjectNotification;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		35CDC39A3B4C0157D2F3D9FE32BDEFA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F4B5253F6E8D5FDAC255CB470A6B62D /* SKWKWebViewDSBridgeLib.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SKWKWebViewDSBridgeLib/SKWKWebViewDSBridgeLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SKWKWebViewDSBridgeLib/SKWKWebViewDSBridgeLib-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SKWKWebViewDSBridgeLib/SKWKWebViewDSBridgeLib.modulemap";
+				PRODUCT_MODULE_NAME = SKWKWebViewDSBridgeLib;
+				PRODUCT_NAME = SKWKWebViewDSBridgeLib;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -581,70 +612,7 @@
 			};
 			name = Release;
 		};
-		476FA958E83CFAF0F993ED0521776A1C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 69440BDA46E65FE210091612368CDC14 /* SKWKWebViewDSBridge.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SKWKWebViewDSBridge/SKWKWebViewDSBridge-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SKWKWebViewDSBridge/SKWKWebViewDSBridge-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SKWKWebViewDSBridge/SKWKWebViewDSBridge.modulemap";
-				PRODUCT_MODULE_NAME = SKWKWebViewDSBridge;
-				PRODUCT_NAME = SKWKWebViewDSBridge;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		54952980E6F2BC073A0136EA38BE6D76 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0172B3BE75DAE8412968F5F0B3A54070 /* SKWKWebViewDSBridge.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/SKWKWebViewDSBridge/SKWKWebViewDSBridge-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SKWKWebViewDSBridge/SKWKWebViewDSBridge-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SKWKWebViewDSBridge/SKWKWebViewDSBridge.modulemap";
-				PRODUCT_MODULE_NAME = SKWKWebViewDSBridge;
-				PRODUCT_NAME = SKWKWebViewDSBridge;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		66912E9394C486CB129886730DC68F49 /* Release */ = {
+		73BAE6E874563FCB8215F730EC4C6ED7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = ECB45ECE438F344D8011D83B30D4322C /* Pods-SKWKWebViewDSBridge_Example.release.xcconfig */;
 			buildSettings = {
@@ -675,23 +643,6 @@
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		69CFAAFB9685D52FF5F956D27D368F45 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 69440BDA46E65FE210091612368CDC14 /* SKWKWebViewDSBridge.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SKWKWebViewDSBridge";
-				IBSC_MODULE = SKWKWebViewDSBridge;
-				INFOPLIST_FILE = "Target Support Files/SKWKWebViewDSBridge/ResourceBundle-SKWKWebViewDSBridge-SKWKWebViewDSBridge-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				PRODUCT_NAME = SKWKWebViewDSBridge;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
@@ -757,7 +708,24 @@
 			};
 			name = Release;
 		};
-		A94BF23B8CB0F8DE970CC7645515677B /* Debug */ = {
+		A8E34557B36A4809E32D96E32C51C82D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66ECD7E3731C93B2671159F849CDD379 /* SKWKWebViewDSBridgeLib.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SKWKWebViewDSBridgeLib";
+				IBSC_MODULE = SKWKWebViewDSBridgeLib;
+				INFOPLIST_FILE = "Target Support Files/SKWKWebViewDSBridgeLib/ResourceBundle-SKWKWebViewDSBridge-SKWKWebViewDSBridgeLib-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = SKWKWebViewDSBridge;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		AA861B1338CACDB75948068EB3818798 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8FD8AA68C5927354EB2335AC31585EB6 /* Pods-SKWKWebViewDSBridge_Example.debug.xcconfig */;
 			buildSettings = {
@@ -790,14 +758,14 @@
 			};
 			name = Debug;
 		};
-		BD36AC39BC9EFBE9DED2C90D083D6E60 /* Debug */ = {
+		B91D925A1F7C6C6908E146966F72CA8C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0172B3BE75DAE8412968F5F0B3A54070 /* SKWKWebViewDSBridge.debug.xcconfig */;
+			baseConfigurationReference = 9F4B5253F6E8D5FDAC255CB470A6B62D /* SKWKWebViewDSBridgeLib.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SKWKWebViewDSBridge";
-				IBSC_MODULE = SKWKWebViewDSBridge;
-				INFOPLIST_FILE = "Target Support Files/SKWKWebViewDSBridge/ResourceBundle-SKWKWebViewDSBridge-SKWKWebViewDSBridge-Info.plist";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SKWKWebViewDSBridgeLib";
+				IBSC_MODULE = SKWKWebViewDSBridgeLib;
+				INFOPLIST_FILE = "Target Support Files/SKWKWebViewDSBridgeLib/ResourceBundle-SKWKWebViewDSBridge-SKWKWebViewDSBridgeLib-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				PRODUCT_NAME = SKWKWebViewDSBridge;
 				SDKROOT = iphoneos;
@@ -806,6 +774,38 @@
 				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
+		};
+		D1A7F80B849462B06D0BA1C1CE4BCE62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66ECD7E3731C93B2671159F849CDD379 /* SKWKWebViewDSBridgeLib.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SKWKWebViewDSBridgeLib/SKWKWebViewDSBridgeLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SKWKWebViewDSBridgeLib/SKWKWebViewDSBridgeLib-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SKWKWebViewDSBridgeLib/SKWKWebViewDSBridgeLib.modulemap";
+				PRODUCT_MODULE_NAME = SKWKWebViewDSBridgeLib;
+				PRODUCT_NAME = SKWKWebViewDSBridgeLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -876,11 +876,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0DEB1FD4DB160A483D7FD1F7A6FA7499 /* Build configuration list for PBXNativeTarget "SKWKWebViewDSBridge-SKWKWebViewDSBridge" */ = {
+		3DA7FC01EAAF43F8224A2A08817D6BF0 /* Build configuration list for PBXNativeTarget "Pods-SKWKWebViewDSBridge_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BD36AC39BC9EFBE9DED2C90D083D6E60 /* Debug */,
-				69CFAAFB9685D52FF5F956D27D368F45 /* Release */,
+				AA861B1338CACDB75948068EB3818798 /* Debug */,
+				73BAE6E874563FCB8215F730EC4C6ED7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -894,20 +894,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		489B4C7AF5274128A93E1FBA4C2F8D0A /* Build configuration list for PBXNativeTarget "Pods-SKWKWebViewDSBridge_Example" */ = {
+		4CECA4C7346D1E136A5079549E96845D /* Build configuration list for PBXNativeTarget "SKWKWebViewDSBridgeLib-SKWKWebViewDSBridge" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A94BF23B8CB0F8DE970CC7645515677B /* Debug */,
-				66912E9394C486CB129886730DC68F49 /* Release */,
+				B91D925A1F7C6C6908E146966F72CA8C /* Debug */,
+				A8E34557B36A4809E32D96E32C51C82D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		50CDE624B0ECE500533941B79F01601A /* Build configuration list for PBXNativeTarget "SKWKWebViewDSBridge" */ = {
+		59E0641DB02B1765E4FBDC189E479F70 /* Build configuration list for PBXNativeTarget "SKWKWebViewDSBridgeLib" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				54952980E6F2BC073A0136EA38BE6D76 /* Debug */,
-				476FA958E83CFAF0F993ED0521776A1C /* Release */,
+				35CDC39A3B4C0157D2F3D9FE32BDEFA2 /* Debug */,
+				D1A7F80B849462B06D0BA1C1CE4BCE62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

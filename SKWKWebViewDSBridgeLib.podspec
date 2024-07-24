@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'SKWKWebViewDSBridge'
+  s.name             = 'SKWKWebViewDSBridgeLib'
   s.version          = '1.0.0'
   s.summary          = '【DSBridge-IOS】的swift版本'
   s.swift_version    = '5.0'

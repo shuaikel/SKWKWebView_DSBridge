@@ -14,12 +14,12 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>SKWKWebViewDSBridge-SKWKWebViewDSBridge.xcscheme</key>
+		<key>SKWKWebViewDSBridgeLib-SKWKWebViewDSBridge.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>SKWKWebViewDSBridge.xcscheme</key>
+		<key>SKWKWebViewDSBridgeLib.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
